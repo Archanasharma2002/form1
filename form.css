@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    max-width: 1420px;
+    margin: auto;
+    border: 1px solid#ddd;
+    padding: 20px;
+}
+.header-text {
+    text-align: center;
+    display: inline;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+}
+.header-top {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.content {
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 20px;
+
+}
+.rent-invoice {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.address {
+    width: 100%;
+    margin: auto;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.contact-us {
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+.payment-term {
+    padding: 20px;
+}
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* .invoice-table td, */
+.invoice-table th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    height: 100%;
+}
+.invoice-table th {
+    background-color: #f2f2f2;
+}
+.invoice-table tfoot {
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #ddd;
+}
+.payment-gst {
+    padding-left: 255px;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #555;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.second-table {
+    padding: 20px;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.invoice-second {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.invoice-second th,
+.invoice-second td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.second-last {
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+
+.bank-details {
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-left: 50%;
+}
+.declare {
+    border-bottom: 1px solid #ddd;
+    display: inline;
+    font-size: 20px;
+}
+.footer {
+    padding: 20px;
+}
+.footer-content {
+    margin-top: 20px;
+}
+.declaration {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.Authorised-bg {
+    text-align: end;
+    font-size: 20px;
+}
+.end {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    display: inline;
+}
+.amount-text {
+    font-size: 18px;
+}
+.end-page {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.table-responsive-second {
+    overflow-x: auto;
+}
+tbody td{
+border: 1px solid #ddd;
+}
+.clear-btn{
+    text-align: center;
+}
+.btn{
+    padding: 10px 10px;
+    font-size: 25px;
+}
+@media (min-width: 1024px) {
+    .header-text,
+    .header-bottom,
+    .rent-invoice,
+    .contact-us,
+    .terms {
+        font-size: 30px;
+    }
+    .content {
+        line-height: 2.5rem;
+        font-size: 30px;
+    }
+    .address,
+    .contact-us {
+        line-height: 2.5rem;
+    }
+    .invoice-table {
+        font-size: 30px;
+    }
+    .invoice-table tfoot,
+    .payment-gst,
+    .amount-text,
+    .table-responsive-second,
+    .declare,
+    .declaration,
+    .Authorised-bg,
+    .authorized-signatory,
+    .end-page,
+    .address {
+        font-size: 30px;
+    }
+    .bank-details {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+    .business-info{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .header-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+    }
+    .header-top {
+        font-size: 20px;
+    }
+    .address,
+    .content,
+    .contect-us,
+    .second-last,
+    .bank-details,
+    .declaration {
+        text-align: center;
+        font-size: 20px;
+    }
+    .declaration {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .last {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+    .invoice-table th,
+    .invoice-table td,
+    .invoice-second th,
+    .invoice-second td {
+        font-size: 20px;
+        /* padding: 6px; */
+        border: 1px solid black;
+    }
+    .second-last {
+        font-size: 18px;
+    }
+    .bank-details {
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .footer-content {
+        text-align: center;
+    }
+    .contact-us {
+        text-align: center;
+    }
+    .payment-gst {
+        padding-left: 73px;
+        border: 1px solid black;
+    }
+}
+@media (max-width: 480px) {
+    .header-bottom {
+        text-align: center;
+    }
+    .address {
+        line-height: 2.5rem;
+    }
+    .second-last,
+    .bank-details {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .footer-content {
+        font-size: 18px;
+    }
+    .declaration {
+        font-size: 18px;
+    }
+    .contact-us {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .payment-gst {
+        padding-left: 99px;
+    }
+    .Authorised-bg {
+        padding: 10px;
+    }
+    .business-info{
+        margin-top: 10px;
+    }
+    .mail{
+        font-size: 18px;
+    }
+
+}
